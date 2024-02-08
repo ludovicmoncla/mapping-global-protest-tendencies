@@ -1,9 +1,9 @@
-jupyter
-lxml
-wikipedia-api
-nltk
-pandas
+jupyter==1.0.0
+lxml==4.9.3
+wikipedia-api==0.6.0
+nltk==3.8.1
+pandas==2.1.3
 bertopic==0.16.0
 openai==1.3.7
-tiktoken
-geopandas
+tiktoken==0.5.2
+geopandas==0.14.2

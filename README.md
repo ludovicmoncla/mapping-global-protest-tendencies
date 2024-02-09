@@ -13,6 +13,8 @@ List of notebooks:
 - [Data Preprocessing](data_preprocessing.ipynb)
 - [Topic Modeling](topic_modeling.ipynb)
 - [Topic Mapping](topic_mapping.ipynb)
+- [Topic Visualization](topic_visualization.ipynb)
+
 
 
 ## Results overview

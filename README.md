@@ -8,7 +8,6 @@ This project has been conducted by **Jiyun Beak** at the [Industral Engineering 
 ## Methodology
 
 
-
 List of notebooks: 
 - [Data Collection](data_collection.ipynb)
 - [Data Preprocessing](data_preprocessing.ipynb)
@@ -30,4 +29,9 @@ python -m pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
+### (optionnal) Set the Environment Variable for the OpenAI API key
+
+```bash
+export OPENAI_API_KEY=<your_api_key>
+```
 

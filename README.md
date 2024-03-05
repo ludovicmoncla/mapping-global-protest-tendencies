@@ -23,7 +23,33 @@ List of notebooks:
 
 ## Results overview
 
+
+* Maps show the distribution of the seven predefined topics across the world.
+
+
 [![Protest Topics](outputs/map_zeroshot_KeyBERTInspired_minsize50_minsimilarity0.8.png)](outputs/map_zeroshot_KeyBERTInspired_minsize50_minsimilarity0.8.png)
+
+|  | disability | ethnicity | gender | language | nationality | race | religion |
+| --------: | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| United States of America	| 30.0	| 788.0	| 326.0	| 482.0	| 847.0	| 1511.0	| 783.0 |
+| Jordan	| 18.0	| NaN	| NaN	| NaN	| NaN	| NaN	| NaN |
+| Israel	| 16.0	| 509.0	| NaN	| NaN	| NaN	| NaN	| 572.0 |
+| Ireland	| 15.0	| NaN	| NaN	| NaN	| 577.0	| NaN	| NaN |
+| Canada	| 14.0	| NaN	| NaN	| 407.0	| NaN	| NaN	| NaN |
+| India	| NaN	| 416.0	| 190.0	| NaN	| NaN	| NaN	| 648.0 |
+| Iran	| NaN	| 321.0	| 194.0	| NaN	| NaN	| NaN	| 598.0 |
+| United Kingdom	| NaN	| 199.0	| NaN	| NaN	| 554.0	| 155.0	| NaN |
+| Russia	| NaN	| NaN	| 163.0	| 516.0	| 454.0	| NaN	| NaN |
+| Ukraine	| NaN	| NaN	| 123.0	| NaN	| NaN	| NaN	| NaN |
+| China	| NaN	| NaN	| NaN	| 824.0	| NaN	| NaN	| NaN |
+| France	| NaN	| NaN	| NaN	| 614.0	| 682.0	| NaN	| NaN |
+| South Africa	| NaN	| NaN	| NaN	| NaN	| NaN	| 183.0	| NaN |
+| Georgia	| NaN	| NaN	| NaN	| NaN	| NaN	| 149.0	| NaN |
+| Australia	| NaN	| NaN	| NaN	| NaN	| NaN	| 143.0	| NaN |
+| Germany	| NaN	| NaN	| NaN	| NaN	| NaN	| NaN	| 329.0 |
+
+
+Results show that USA is in the top five of the most frequent country names for all the seven predefined topics while, Israel, India, Iran, United Kingdom and Russia are in the top 5 for 3 topics. Also, \textit{France} is in the top 5 for `nationality` and `language`, Ireland for `nationality` and `disability`, Canada for `disability` and `language`, China for `language`, and South Africa and Australia for `race`.
 
 
 ## Reproduce the experiment

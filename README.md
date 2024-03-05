@@ -24,10 +24,12 @@ List of notebooks:
 ## Results overview
 
 
-* Maps show the distribution of the seven predefined topics across the world.
-
+* Maps show the distribution of the seven predefined topics across the world
 
 [![Protest Topics](outputs/map_zeroshot_KeyBERTInspired_minsize50_minsimilarity0.8.png)](outputs/map_zeroshot_KeyBERTInspired_minsize50_minsimilarity0.8.png)
+
+
+* Table shows the top 5 countries for each predefined topic
 
 |  | disability | ethnicity | gender | language | nationality | race | religion |
 | --------: | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
@@ -48,8 +50,7 @@ List of notebooks:
 | Australia	| NaN	| NaN	| NaN	| NaN	| NaN	| 143.0	| NaN |
 | Germany	| NaN	| NaN	| NaN	| NaN	| NaN	| NaN	| 329.0 |
 
-
-Results show that USA is in the top five of the most frequent country names for all the seven predefined topics while, Israel, India, Iran, United Kingdom and Russia are in the top 5 for 3 topics. Also, \textit{France} is in the top 5 for `nationality` and `language`, Ireland for `nationality` and `disability`, Canada for `disability` and `language`, China for `language`, and South Africa and Australia for `race`.
+Results show that USA is in the top five of the most frequent country names for all the seven predefined topics while, Israel, India, Iran, United Kingdom and Russia are in the top 5 for 3 topics. Also, France is in the top 5 for `nationality` and `language`, Ireland for `nationality` and `disability`, Canada for `disability` and `language`, China for `language`, and South Africa and Australia for `race`.
 
 
 ## Reproduce the experiment
